@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
+<script>
+  // 设置两秒后执行的函数
+  setTimeout(function(){
+    //使用window.location属性来跳转到一个新的网站
+    window.location.href = "sjac.html";
+  }, 5000); //2000毫秒后执行，即两秒
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>开场动画</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      overflow: hidden;
-    }
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-      body {
-      background-color: black;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      padding: 0;
-    }
-  </style>
+  <title>Star Particles</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-     <img src="SJ.png" alt="示例图片" id="image" style="width: 150px; height: 140px;"> 
-  <script>
-    setTimeout(function () {
-      window.location.href = "sjac.html";
-    }, 2000);
-  </script>
+  <div class="loader">
+    <span style="--i:1;"><i class="fa-solid fa-heart"></i></span>
+    <span style="--i:2;"><i class="fa-solid fa-heart"></i></span>
+    <span style="--i:3;"><i class="fa-solid fa-heart"></i></span>
+    <span style="--i:4;"><i class="fa-solid fa-heart"></i></span>
+    <span style="--i:5;"><i class="fa-solid fa-heart"></i></span>
+    <span style="--i:6;"><i class="fa-solid fa-heart"></i></span>
+    <span style="--i:7;"><i class="fa-solid fa-heart"></i></span>
+    <span style="--i:8;"><i class="fa-solid fa-heart"></i></span>
+    <span style="--i:9;"><i class="fa-solid fa-heart"></i></span>
+    <span style="--i:10;"><i class="fa-solid fa-heart"></i></span>
+    <span style="--i:11;"><i class="fa-solid fa-heart"></i></span>
+    <span style="--i:12;"><i class="fa-solid fa-heart"></i></span>
+    
+  </div>
 </body>
 </html>
+
+
+
+
+
+
